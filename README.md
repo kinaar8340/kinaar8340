@@ -1,10 +1,15 @@
-# Aaron Michael
+## VQC Tech Navigation Page
+**Aaron Michael Kinder** - [ORCID](https://orcid.org/0009-0006-6765-9813) - [Hugging Face](https://huggingface.co/kinaar111) - [X](https://x.com/kinaar8340)
 
-Correction, attractors, and geometric dynamics on the Hopf fibration and gauged flux lattices. Geometry and arithmetic stay theorems. Physical models stay models. This page is the account map, not a product.
+This page is the account map, not a product. Correction, attractors, and geometric dynamics on the Hopf fibration and gauged flux lattices. Geometry and arithmetic stay theorems. Physical models stay models.
 
-Start here: the geometry spine is [qga](https://github.com/kinaar8340/qga); the working VQC surface is [vqc_workbench](https://github.com/kinaar8340/vqc_workbench); the portal is [kingdom_come](https://github.com/kinaar8340/kingdom_come).
+## Quickstart
 
-**VQC Tech** · [ORCID](https://orcid.org/0009-0006-6765-9813) · [Hugging Face](https://huggingface.co/kinaar111) · [X](https://x.com/kinaar8340)
+[qga](https://github.com/kinaar8340/qga) - QGA the geometry spine
+  
+[vqc_workbench](https://github.com/kinaar8340/vqc_workbench) - the working VQC surface
+
+[kingdom_come](https://github.com/kinaar8340/kingdom_come) - the portal
 
 ## How to read this account
 
