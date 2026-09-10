@@ -81,6 +81,4 @@ Shared math → proto → workbench → demo.
 
 Pinned entry points (QGA → VQC → TOE): `qga`, `qga_engine`, `qga_gpu`, `flux_hopf_lib`, `vqc_workbench`, `kingdom_come`.
 
-Labs stay unpinned. Archived trees (for example `vqc_sims`) stay off this map on purpose.
-
 Several VQC repos show license Other: public research under PolyForm Noncommercial plus a patent notice (US 63/913,110). Geometry libraries remain MIT.
