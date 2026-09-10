@@ -1,15 +1,69 @@
-# Aaron Michael
+## kinaar8340
+Correction, attractors, and geometric dynamics on the Hopf fibration and gauged flux lattices. Geometry and arithmetic stay theorems. 
+Physical models stay models. This repository is the **account map**, not a product.
 
-Correction, attractors, and geometric dynamics on the Hopf fibration
-and gauged flux lattices.
+- [ORCID](https://orcid.org/0009-0006-6765-9813)
 
-Geometry and arithmetic stay theorems. Physical models stay models.
+- [Repositories](https://github.com/kinaar8340?tab=repositories) 
 
-**VQC Tech** · [ORCID](https://orcid.org/0009-0006-6765-9813) · [X](https://x.com/kinaar8340) · [Hugging Face](https://huggingface.co/kinaar111)
+- [Hugging Face](https://huggingface.co/kinaar111)
 
-This repository is the **account map**, not a product. The
-[Repositories](https://github.com/kinaar8340?tab=repositories) tab stays
-chronological. Grouping lives here and in GitHub topics.
+- [X](https://x.com/kinaar8340)
+
+
+## QGA - Quaternionic Geometric Approach 
+Manuscript -> Engine -> Renderer
+
+| Repo | Role |
+|------|------|
+| [qga](https://github.com/kinaar8340/qga) | Manuscript: Hatcher lift to quaternions, Hopf, gauged flux |
+| [qga_engine](https://github.com/kinaar8340/qga_engine) | Native GPU engine for QGA worlds |
+| [qga_gpu](https://github.com/kinaar8340/qga_gpu) | wgpu/Vulkan renderer — owns the frame |
+| [inner_cone](https://github.com/kinaar8340/inner_cone) | Observer and the two cones they live in |
+| [shellscan](https://github.com/kinaar8340/shellscan) | Inverse-Hopf shell; pixel as a local plane-cut |
+| [arena](https://github.com/kinaar8340/arena) | Mix `Q = Q_O + σ(Z) Q_C` — a Model, not a theorem |
+| [op5](https://github.com/kinaar8340/op5) | Independent empirical track (Appendix B) |
+
+## VQC - Vortex Quaternion Conduit
+Shared Math -> Proto -> Workbench -> Demo
+
+| Repo | Role |
+|------|------|
+| [flux_hopf_lib](https://github.com/kinaar8340/flux_hopf_lib) | Shared Hopf / quaternion / conduit core |
+| [vqc_proto](https://github.com/kinaar8340/vqc_proto) | Orbital Braille typehead prototype |
+| [vqc_workbench](https://github.com/kinaar8340/vqc_workbench) | Photonic workbench: metamaterials, gratings, OAM |
+| [vqc_demo](https://github.com/kinaar8340/vqc_demo) | Visual / software-side POC |
+| [vqc_sims_public](https://github.com/kinaar8340/vqc_sims_public) | Public OAM simulations |
+| [oam_flux](https://github.com/kinaar8340/oam_flux) | Helical OAM flux lattice |
+| [oam_bridge](https://github.com/kinaar8340/oam_bridge) | Photonic analog package |
+| [flux_trajectoid](https://github.com/kinaar8340/flux_trajectoid) | Trajectoid shells + VQC quaternion |
+| [flux_hopf_explorer](https://github.com/kinaar8340/flux_hopf_explorer) | Hopf fiber explorer (Three.js / WebGPU) |
+| [pic](https://github.com/kinaar8340/pic) | Persistent Identity Conduit |
+| [qvpic](https://github.com/kinaar8340/qvpic) | Quaternion Vortex PIC |
+
+## TOE - Theory of Everything
+
+| Repo | Role |
+|------|------|
+| [kingdom_come](https://github.com/kinaar8340/kingdom_come) | Portal: Hopf visualizers, flux flywheel, observations |
+| [toe](https://github.com/kinaar8340/toe) | Flux flywheels, gauged Hopf lattice, emergent reality |
+| [hfb](https://github.com/kinaar8340/hfb) | Hopf Flux Bubble — analog gravity / defects |
+| [mystery](https://github.com/kinaar8340/mystery) | φ, e, π signature probes |
+| [invariant_hunt](https://github.com/kinaar8340/invariant_hunt) | Invariant search on the lattice |
+| [convex_defect](https://github.com/kinaar8340/convex_defect) | Frequency-dependent topological convex defect density |
+| [vortex_math](https://github.com/kinaar8340/vortex_math) | 9/π arc-length map on the unit circle |
+
+## Labs and Exploration
+
+| Repo | Role |
+|------|------|
+| [alignment](https://github.com/kinaar8340/alignment) | Alignment scoring engine |
+| [reveal](https://github.com/kinaar8340/reveal) | Residual measurement: observed − Π(global_R, frame_R) |
+| [clone_shard](https://github.com/kinaar8340/clone_shard) | Falsifiable tree-architecture test (Fichte / Buche) |
+| [wetware_printer](https://github.com/kinaar8340/wetware_printer) | Morphogenetic growth simulator |
+| [universal_clock](https://github.com/kinaar8340/universal_clock) | Geometric circular time |
+| [6-string-optimizer](https://github.com/kinaar8340/6-string-optimizer) | Riemannian optimizer on sphere manifolds |
+
 
 ## How to read this account
 
@@ -30,63 +84,6 @@ Pinned entry points (QGA → VQC → TOE):
 Labs stay unpinned. Archived trees (for example `vqc_sims`) stay off this map
 on purpose.
 
-## QGA spine
-
-Quaternionic Geometric Approach — manuscript, engine, renderer.
-
-| Repo | Role |
-|------|------|
-| [qga](https://github.com/kinaar8340/qga) | Manuscript: Hatcher lift to quaternions, Hopf, gauged flux |
-| [qga_engine](https://github.com/kinaar8340/qga_engine) | Native GPU engine for QGA worlds |
-| [qga_gpu](https://github.com/kinaar8340/qga_gpu) | wgpu/Vulkan renderer — owns the frame |
-| [inner_cone](https://github.com/kinaar8340/inner_cone) | Observer and the two cones they live in |
-| [shellscan](https://github.com/kinaar8340/shellscan) | Inverse-Hopf shell; pixel as a local plane-cut |
-| [arena](https://github.com/kinaar8340/arena) | Mix `Q = Q_O + σ(Z) Q_C` — a Model, not a theorem |
-| [op5](https://github.com/kinaar8340/op5) | Independent empirical track (Appendix B) |
-
-## VQC stack
-
-Vortex Quaternion Conduit — shared math → proto → workbench → demo.
-
-| Repo | Role |
-|------|------|
-| [flux_hopf_lib](https://github.com/kinaar8340/flux_hopf_lib) | Shared Hopf / quaternion / conduit core |
-| [vqc_proto](https://github.com/kinaar8340/vqc_proto) | Orbital Braille typehead prototype |
-| [vqc_workbench](https://github.com/kinaar8340/vqc_workbench) | Photonic workbench: metamaterials, gratings, OAM |
-| [vqc_demo](https://github.com/kinaar8340/vqc_demo) | Visual / software-side POC |
-| [vqc_sims_public](https://github.com/kinaar8340/vqc_sims_public) | Public OAM simulations |
-| [oam_flux](https://github.com/kinaar8340/oam_flux) | Helical OAM flux lattice |
-| [oam_bridge](https://github.com/kinaar8340/oam_bridge) | Photonic analog package |
-| [flux_trajectoid](https://github.com/kinaar8340/flux_trajectoid) | Trajectoid shells + VQC quaternion |
-| [flux_hopf_explorer](https://github.com/kinaar8340/flux_hopf_explorer) | Hopf fiber explorer (Three.js / WebGPU) |
-| [pic](https://github.com/kinaar8340/pic) | Persistent Identity Conduit |
-| [qvpic](https://github.com/kinaar8340/qvpic) | Quaternion Vortex PIC |
-
-## Theory / TOE
-
-| Repo | Role |
-|------|------|
-| [kingdom_come](https://github.com/kinaar8340/kingdom_come) | Portal: Hopf visualizers, flux flywheel, observations |
-| [toe](https://github.com/kinaar8340/toe) | Flux flywheels, gauged Hopf lattice, emergent reality |
-| [hfb](https://github.com/kinaar8340/hfb) | Hopf Flux Bubble — analog gravity / defects |
-| [mystery](https://github.com/kinaar8340/mystery) | φ, e, π signature probes |
-| [invariant_hunt](https://github.com/kinaar8340/invariant_hunt) | Invariant search on the lattice |
-| [convex_defect](https://github.com/kinaar8340/convex_defect) | Frequency-dependent topological convex defect density |
-| [vortex_math](https://github.com/kinaar8340/vortex_math) | 9/π arc-length map on the unit circle |
-
-## Labs / scratch
-
-| Repo | Role |
-|------|------|
-| [alignment](https://github.com/kinaar8340/alignment) | Alignment scoring engine |
-| [reveal](https://github.com/kinaar8340/reveal) | Residual measurement: observed − Π(global_R, frame_R) |
-| [clone_shard](https://github.com/kinaar8340/clone_shard) | Falsifiable tree-architecture test (Fichte / Buche) |
-| [wetware_printer](https://github.com/kinaar8340/wetware_printer) | Morphogenetic growth simulator |
-| [universal_clock](https://github.com/kinaar8340/universal_clock) | Geometric circular time |
-| [6-string-optimizer](https://github.com/kinaar8340/6-string-optimizer) | Riemannian optimizer on sphere manifolds |
-
----
-
 ## Maintaining the map
 
 `catalog.yml` is the source of truth for **public metadata** (description,
@@ -102,3 +99,4 @@ Always inspect before writing:
 python3 manage_repos.py dry-run -c catalog.yml
 python3 manage_repos.py apply   -c catalog.yml
 python3 manage_repos.py audit   -c catalog.yml
+```
