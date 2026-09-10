@@ -28,17 +28,22 @@ Prefixes: `qga_*` geometry / engine / renderer · `vqc_*` conduit / photonics / 
 
 ## QGA — Quaternionic Geometric Approach
 
-Manuscript → engine → renderer.
+Start here: [qga/START_HERE.md](https://github.com/kinaar8340/qga/blob/main/START_HERE.md).
 
-| Repo | Role |
-|------|------|
-| [qga](https://github.com/kinaar8340/qga) | Manuscript: Hatcher lift to quaternions, Hopf, gauged flux |
-| [qga_engine](https://github.com/kinaar8340/qga_engine) | Native GPU engine for QGA worlds |
-| [qga_gpu](https://github.com/kinaar8340/qga_gpu) | wgpu/Vulkan renderer — owns the frame |
-| [inner_cone](https://github.com/kinaar8340/inner_cone) | Observer and the two cones they live in |
-| [shellscan](https://github.com/kinaar8340/shellscan) | Inverse-Hopf shell; pixel as a local plane-cut |
-| [arena](https://github.com/kinaar8340/arena) | Mix `Q = Q_O + σ(Z) Q_C` — a Model, not a theorem |
-| [op5](https://github.com/kinaar8340/op5) | Independent empirical track (Appendix B) |
+Spine → shared math → engine → this repo’s job. `flux_hopf_lib` is the math core; [topic:qga](https://github.com/kinaar8340?tab=repositories&q=topic:qga) is incomplete without it.
+
+| Repo | Role | Do not use it for |
+|------|------|-------------------|
+| [flux_hopf_lib](https://github.com/kinaar8340/flux_hopf_lib) | Shared math SoT | QGA-specific book labs |
+| [qga](https://github.com/kinaar8340/qga) | Manuscript + pedagogical Python | Runtime GPU, empirical attacks |
+| [qga_engine](https://github.com/kinaar8340/qga_engine) | Scenes, Rust math port, sims | Swapchain / upload path |
+| [qga_gpu](https://github.com/kinaar8340/qga_gpu) | Frame, pipelines, upload stats | World meaning |
+| [inner_cone](https://github.com/kinaar8340/inner_cone) | One observer + two cones | Full realm/cosmos |
+| [shellscan](https://github.com/kinaar8340/shellscan) | Inverse-Hopf scan / pixel model | Generic renderer |
+| [arena](https://github.com/kinaar8340/arena) | Mix `Q = Q_O + σ(Z) Q_C` — a Model, not a theorem | Theorems |
+| [op5](https://github.com/kinaar8340/op5) | Independent empirical track (Appendix B) | Geometry proofs |
+
+**Compatibility (book draft D).** `qga 0.1.0` works with `flux_hopf_lib 0.3.0`, `qga_engine 0.1.0`, `qga_gpu 0.1.0`. Pin tags, never `main`.
 
 ## VQC — Vortex Quaternion Conduit
 
