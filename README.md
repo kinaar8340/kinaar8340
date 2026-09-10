@@ -1,18 +1,27 @@
-## kinaar8340
-Correction, attractors, and geometric dynamics on the Hopf fibration and gauged flux lattices. Geometry and arithmetic stay theorems. 
-Physical models stay models. This repository is the **account map**, not a product.
+# Aaron Michael
 
-- [ORCID](https://orcid.org/0009-0006-6765-9813)
+Correction, attractors, and geometric dynamics on the Hopf fibration and gauged flux lattices. Geometry and arithmetic stay theorems. Physical models stay models. This page is the account map, not a product.
 
-- [Repositories](https://github.com/kinaar8340?tab=repositories) 
+Start here: the geometry spine is [qga](https://github.com/kinaar8340/qga); the working VQC surface is [vqc_workbench](https://github.com/kinaar8340/vqc_workbench); the portal is [kingdom_come](https://github.com/kinaar8340/kingdom_come).
 
-- [Hugging Face](https://huggingface.co/kinaar111)
+**VQC Tech** · [ORCID](https://orcid.org/0009-0006-6765-9813) · [Hugging Face](https://huggingface.co/kinaar111) · [X](https://x.com/kinaar8340)
 
-- [X](https://x.com/kinaar8340)
+## How to read this account
 
+GitHub has no folders. Filter the [Repositories](https://github.com/kinaar8340?tab=repositories) tab:
 
-## QGA - Quaternionic Geometric Approach 
-Manuscript -> Engine -> Renderer
+- [topic:qga](https://github.com/kinaar8340?tab=repositories&q=topic:qga)
+- [topic:vqc](https://github.com/kinaar8340?tab=repositories&q=topic:vqc)
+- [topic:hopf-fibration](https://github.com/kinaar8340?tab=repositories&q=topic:hopf-fibration)
+- [topic:photonics](https://github.com/kinaar8340?tab=repositories&q=topic:photonics)
+- [topic:quaternion](https://github.com/kinaar8340?tab=repositories&q=topic:quaternion)
+- [topic:research](https://github.com/kinaar8340?tab=repositories&q=topic:research)
+
+Prefixes: `qga_*` geometry / engine / renderer · `vqc_*` conduit / photonics / sims · `flux_*` shared math.
+
+## QGA — Quaternionic Geometric Approach
+
+Manuscript → engine → renderer.
 
 | Repo | Role |
 |------|------|
@@ -24,8 +33,9 @@ Manuscript -> Engine -> Renderer
 | [arena](https://github.com/kinaar8340/arena) | Mix `Q = Q_O + σ(Z) Q_C` — a Model, not a theorem |
 | [op5](https://github.com/kinaar8340/op5) | Independent empirical track (Appendix B) |
 
-## VQC - Vortex Quaternion Conduit
-Shared Math -> Proto -> Workbench -> Demo
+## VQC — Vortex Quaternion Conduit
+
+Shared math → proto → workbench → demo.
 
 | Repo | Role |
 |------|------|
@@ -41,7 +51,7 @@ Shared Math -> Proto -> Workbench -> Demo
 | [pic](https://github.com/kinaar8340/pic) | Persistent Identity Conduit |
 | [qvpic](https://github.com/kinaar8340/qvpic) | Quaternion Vortex PIC |
 
-## TOE - Theory of Everything
+## TOE — Theory of Everything
 
 | Repo | Role |
 |------|------|
@@ -53,7 +63,7 @@ Shared Math -> Proto -> Workbench -> Demo
 | [convex_defect](https://github.com/kinaar8340/convex_defect) | Frequency-dependent topological convex defect density |
 | [vortex_math](https://github.com/kinaar8340/vortex_math) | 9/π arc-length map on the unit circle |
 
-## Labs and Exploration
+## Labs
 
 | Repo | Role |
 |------|------|
@@ -64,39 +74,8 @@ Shared Math -> Proto -> Workbench -> Demo
 | [universal_clock](https://github.com/kinaar8340/universal_clock) | Geometric circular time |
 | [6-string-optimizer](https://github.com/kinaar8340/6-string-optimizer) | Riemannian optimizer on sphere manifolds |
 
+Pinned entry points (QGA → VQC → TOE): `qga`, `qga_engine`, `qga_gpu`, `flux_hopf_lib`, `vqc_workbench`, `kingdom_come`.
 
-## How to read this account
+Labs stay unpinned. Archived trees (for example `vqc_sims`) stay off this map on purpose.
 
-Filter the repo list by topic:
-
-- [topic:qga](https://github.com/kinaar8340?tab=repositories&q=topic:qga)
-- [topic:vqc](https://github.com/kinaar8340?tab=repositories&q=topic:vqc)
-- [topic:hopf-fibration](https://github.com/kinaar8340?tab=repositories&q=topic:hopf-fibration)
-- [topic:photonics](https://github.com/kinaar8340?tab=repositories&q=topic:photonics)
-- [topic:quaternion](https://github.com/kinaar8340?tab=repositories&q=topic:quaternion)
-- [topic:research](https://github.com/kinaar8340?tab=repositories&q=topic:research)
-
-Prefixes: `qga_*` geometry / engine / renderer · `vqc_*` conduit / photonics / sims · `flux_*` shared math.
-
-Pinned entry points (QGA → VQC → TOE):
-`qga`, `qga_engine`, `qga_gpu`, `flux_hopf_lib`, `vqc_workbench`, `kingdom_come`.
-
-Labs stay unpinned. Archived trees (for example `vqc_sims`) stay off this map
-on purpose.
-
-## Maintaining the map
-
-`catalog.yml` is the source of truth for **public metadata** (description,
-topics, intended pins). It does not move git history, change licenses, or
-promote a Model to a theorem. Wording in the catalog must stay as careful as
-the manuscripts in `~/Projects`.
-
-Prerequisite: GitHub CLI authenticated with `repo` scope (`gh auth status`).
-
-Always inspect before writing:
-
-```bash
-python3 manage_repos.py dry-run -c catalog.yml
-python3 manage_repos.py apply   -c catalog.yml
-python3 manage_repos.py audit   -c catalog.yml
-```
+Several VQC repos show license Other: public research under PolyForm Noncommercial plus a patent notice (US 63/913,110). Geometry libraries remain MIT.
