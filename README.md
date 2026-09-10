@@ -5,11 +5,13 @@ This page is the account map, not a product. Correction, attractors, and geometr
 
 ## Quickstart
 
-[qga](https://github.com/kinaar8340/qga) - QGA the geometry spine
-  
-[vqc_workbench](https://github.com/kinaar8340/vqc_workbench) - the working VQC surface
+Three faces. Open these first.
 
-[kingdom_come](https://github.com/kinaar8340/kingdom_come) - the portal
+**Math.** [qga](https://github.com/kinaar8340/qga) — manuscript spine (Hatcher lift, Hopf, gauged flux).
+
+**Core.** [flux_hopf_lib](https://github.com/kinaar8340/flux_hopf_lib) — shared Hopf / quaternion / conduit primitives.
+
+**Demo / portal.** [vqc_workbench](https://github.com/kinaar8340/vqc_workbench) — working VQC surface. [kingdom_come](https://github.com/kinaar8340/kingdom_come) — portal for models and observations.
 
 ## How to read this account
 
@@ -56,11 +58,12 @@ Shared math → proto → workbench → demo.
 | [pic](https://github.com/kinaar8340/pic) | Persistent Identity Conduit |
 | [qvpic](https://github.com/kinaar8340/qvpic) | Quaternion Vortex PIC |
 
-## TOE — Theory of Everything
+## Behind the portal — models, not the spine
+
+These sit behind [kingdom_come](https://github.com/kinaar8340/kingdom_come). They are satellites, not peer products.
 
 | Repo | Role |
 |------|------|
-| [kingdom_come](https://github.com/kinaar8340/kingdom_come) | Portal: Hopf visualizers, flux flywheel, observations |
 | [toe](https://github.com/kinaar8340/toe) | Flux flywheels, gauged Hopf lattice, emergent reality |
 | [hfb](https://github.com/kinaar8340/hfb) | Hopf Flux Bubble — analog gravity / defects |
 | [mystery](https://github.com/kinaar8340/mystery) | φ, e, π signature probes |
@@ -79,6 +82,6 @@ Shared math → proto → workbench → demo.
 | [universal_clock](https://github.com/kinaar8340/universal_clock) | Geometric circular time |
 | [6-string-optimizer](https://github.com/kinaar8340/6-string-optimizer) | Riemannian optimizer on sphere manifolds |
 
-Pinned entry points (QGA → VQC → TOE): `qga`, `qga_engine`, `qga_gpu`, `flux_hopf_lib`, `vqc_workbench`, `kingdom_come`.
+Pinned entry points: `qga`, `qga_engine`, `qga_gpu`, `flux_hopf_lib`, `vqc_workbench`, `kingdom_come`.
 
 Several VQC repos show license Other: public research under PolyForm Noncommercial plus a patent notice (US 63/913,110). Geometry libraries remain MIT.
