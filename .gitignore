@@ -1,0 +1,36 @@
+# Profile repo may publish README.md only.
+# Everything else is the local operator desk.
+
+# Desk docs
+AGENTS.md
+ARCHITECTURE.md
+PHASE.md
+OPS.md
+catalog.yml
+manage_repos.py
+notes/
+
+# Grok Build local config / skills / rules
+.grok/
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Env and secrets
+.env
+.env.*
+!.env.example
+
+# Editor / OS
+.DS_Store
+*.swp
+.idea/
+.vscode/
