@@ -1,14 +1,19 @@
 # Aaron Michael Kinder
 
-Correction, attractors, and geometric dynamics on the Hopf fibration and gauged flux lattices.
+Correction, attractors, and geometric dynamics on the Hopf fibration
+and gauged flux lattices.
 
 Geometry and arithmetic stay theorems. Physical models stay models.
 
-**VQC Tech** · [Hugging Face](https://huggingface.co/kinaar111) · [X](https://x.com/kinaar8340)
+**VQC Tech** · [ORCID](https://orcid.org/0009-0006-6765-9813) · [X](https://x.com/kinaar8340) · [Hugging Face](https://huggingface.co/kinaar111)
+
+This repository is the **account map**, not a product. The
+[Repositories](https://github.com/kinaar8340?tab=repositories) tab stays
+chronological. Grouping lives here and in GitHub topics.
 
 ## How to read this account
 
-GitHub has no folders for repositories. This page is the map. The [Repositories](https://github.com/kinaar8340?tab=repositories) tab stays chronological — filter it by topic:
+Filter the repo list by topic:
 
 - [topic:qga](https://github.com/kinaar8340?tab=repositories&q=topic:qga)
 - [topic:vqc](https://github.com/kinaar8340?tab=repositories&q=topic:vqc)
@@ -18,6 +23,12 @@ GitHub has no folders for repositories. This page is the map. The [Repositories]
 - [topic:research](https://github.com/kinaar8340?tab=repositories&q=topic:research)
 
 Prefixes: `qga_*` geometry / engine / renderer · `vqc_*` conduit / photonics / sims · `flux_*` shared math.
+
+Pinned entry points (QGA → VQC → TOE):
+`qga`, `qga_engine`, `qga_gpu`, `flux_hopf_lib`, `vqc_workbench`, `kingdom_come`.
+
+Labs stay unpinned. Archived trees (for example `vqc_sims`) stay off this map
+on purpose.
 
 ## QGA spine
 
@@ -73,3 +84,21 @@ Vortex Quaternion Conduit — shared math → proto → workbench → demo.
 | [wetware_printer](https://github.com/kinaar8340/wetware_printer) | Morphogenetic growth simulator |
 | [universal_clock](https://github.com/kinaar8340/universal_clock) | Geometric circular time |
 | [6-string-optimizer](https://github.com/kinaar8340/6-string-optimizer) | Riemannian optimizer on sphere manifolds |
+
+---
+
+## Maintaining the map
+
+`catalog.yml` is the source of truth for **public metadata** (description,
+topics, intended pins). It does not move git history, change licenses, or
+promote a Model to a theorem. Wording in the catalog must stay as careful as
+the manuscripts in `~/Projects`.
+
+Prerequisite: GitHub CLI authenticated with `repo` scope (`gh auth status`).
+
+Always inspect before writing:
+
+```bash
+python3 manage_repos.py dry-run -c catalog.yml
+python3 manage_repos.py apply   -c catalog.yml
+python3 manage_repos.py audit   -c catalog.yml
