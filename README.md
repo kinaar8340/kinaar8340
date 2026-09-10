@@ -43,7 +43,7 @@ Spine → shared math → engine → this repo’s job. `flux_hopf_lib` is the m
 | [arena](https://github.com/kinaar8340/arena) | Mix `Q = Q_O + σ(Z) Q_C` — a Model, not a theorem | Theorems |
 | [op5](https://github.com/kinaar8340/op5) | Independent empirical track (Appendix B) | Geometry proofs |
 
-**Compatibility (book draft D).** `qga 0.1.0` works with `flux_hopf_lib 0.3.0`, `qga_engine 0.1.0`, `qga_gpu 0.1.0`. Pin tags, never `main`.
+**Compatibility (book draft D).** `qga 0.1.0` works with `flux_hopf_lib 0.3.0` and `qga_gpu@b9c9994` (`qga_engine` pins that sha). Path pins still legal locally. No `v0.1.0` tags yet.
 
 ## VQC — Vortex Quaternion Conduit
 
