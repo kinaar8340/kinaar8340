@@ -13,6 +13,9 @@ notes/
 # Grok Build local config / skills / rules
 .grok/
 
+# Local artifacts
+outputs/
+
 # Python
 venv/
 .venv/
