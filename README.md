@@ -1,4 +1,4 @@
-# Aaron Michael
+# Aaron Michael Kinder
 
 Correction, attractors, and geometric dynamics on the Hopf fibration and gauged flux lattices.
 
