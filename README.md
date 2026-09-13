@@ -14,9 +14,9 @@ This page is the account map, not a product. Correction, attractors, and geometr
 
 Three faces. Open these first.
 
-**Math.** [qga](https://github.com/kinaar8340/qga) — manuscript spine (Hatcher lift, Hopf, gauged flux).
+**Math.** [qga](https://github.com/qga-lab/qga) — manuscript spine (Hatcher lift, Hopf, gauged flux).
 
-**Core.** [flux_hopf_lib](https://github.com/kinaar8340/flux_hopf_lib) — shared Hopf / quaternion / conduit primitives.
+**Core.** [flux_hopf_lib](https://github.com/qga-lab/flux_hopf_lib) — shared Hopf / quaternion / conduit primitives.
 
 **Demo / portal.** [vqc_workbench](https://github.com/kinaar8340/vqc_workbench) — working VQC surface. [kingdom_come](https://github.com/kinaar8340/kingdom_come) — portal for models and observations.
 
@@ -35,16 +35,16 @@ Prefixes: `qga_*` geometry / engine / renderer · `vqc_*` conduit / photonics / 
 
 ## QGA — Quaternionic Geometric Approach
 
-Start here: [qga/START_HERE.md](https://github.com/kinaar8340/qga/blob/main/START_HERE.md).
+Start here: [qga/START_HERE.md](https://github.com/qga-lab/qga/blob/main/START_HERE.md).
 
 Spine → shared math → engine → this repo’s job. `flux_hopf_lib` is the math core; [topic:qga](https://github.com/kinaar8340?tab=repositories&q=topic:qga) is incomplete without it.
 
 | Repo | Role | Do not use it for |
 |------|------|-------------------|
-| [flux_hopf_lib](https://github.com/kinaar8340/flux_hopf_lib) | Shared math SoT | QGA-specific book labs |
-| [qga](https://github.com/kinaar8340/qga) | Manuscript + pedagogical Python | Runtime GPU, empirical attacks |
-| [qga_engine](https://github.com/kinaar8340/qga_engine) | Scenes, Rust math port, sims | Swapchain / upload path |
-| [qga_gpu](https://github.com/kinaar8340/qga_gpu) | Frame, pipelines, upload stats | World meaning |
+| [flux_hopf_lib](https://github.com/qga-lab/flux_hopf_lib) | Shared math SoT | QGA-specific book labs |
+| [qga](https://github.com/qga-lab/qga) | Manuscript + pedagogical Python | Runtime GPU, empirical attacks |
+| [qga_engine](https://github.com/qga-lab/qga_engine) | Scenes, Rust math port, sims | Swapchain / upload path |
+| [qga_gpu](https://github.com/qga-lab/qga_gpu) | Frame, pipelines, upload stats | World meaning |
 | [inner_cone](https://github.com/kinaar8340/inner_cone) | One observer + two cones | Full realm/cosmos |
 | [shellscan](https://github.com/kinaar8340/shellscan) | Inverse-Hopf scan / pixel model | Generic renderer |
 | [arena](https://github.com/kinaar8340/arena) | Mix `Q = Q_O + σ(Z) Q_C` — a Model, not a theorem | Theorems |
@@ -58,12 +58,12 @@ Shared math → proto → workbench → demo.
 
 | Repo | Role |
 |------|------|
-| [flux_hopf_lib](https://github.com/kinaar8340/flux_hopf_lib) | Shared Hopf / quaternion / conduit core |
+| [flux_hopf_lib](https://github.com/qga-lab/flux_hopf_lib) | Shared Hopf / quaternion / conduit core |
 | [vqc_proto](https://github.com/kinaar8340/vqc_proto) | Orbital Braille typehead prototype |
 | [vqc_workbench](https://github.com/kinaar8340/vqc_workbench) | Photonic workbench: metamaterials, gratings, OAM |
 | [vqc_demo](https://github.com/kinaar8340/vqc_demo) | Visual / software-side POC |
 | [vqc_sims_public](https://github.com/kinaar8340/vqc_sims_public) | Public OAM simulations |
-| [oam_flux](https://github.com/kinaar8340/oam_flux) | Helical OAM flux lattice |
+| [oam_flux](https://github.com/qga-lab/oam_flux) | Helical OAM flux lattice |
 | [oam_bridge](https://github.com/kinaar8340/oam_bridge) | Photonic analog package |
 | [flux_trajectoid](https://github.com/kinaar8340/flux_trajectoid) | Trajectoid shells + VQC quaternion |
 | [flux_hopf_explorer](https://github.com/kinaar8340/flux_hopf_explorer) | Hopf fiber explorer (Three.js / WebGPU) |
