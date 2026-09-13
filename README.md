@@ -1,3 +1,10 @@
+## Citable spine
+
+The maintained public stack lives in the org:
+https://github.com/qga-lab
+
+This account is the lab notebook. Models, probes, and personal writing stay here.
+
 ## VQC Tech Navigation Page
 **Aaron Michael Kinder** - [ORCID](https://orcid.org/0009-0006-6765-9813) - [Hugging Face](https://huggingface.co/kinaar111) - [X](https://x.com/kinaar8340)
 
